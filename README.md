@@ -11,7 +11,7 @@ MySqli
 
 1. Clona el repositorio:
     ```bash
-    git clone https://github.com/usuario/nombre-proyecto.git
+    git clone https://github.com/saulsantana0412/Sistema-de-Registro-de-Vacunas.git
     ```
 2. Entra en el directorio del proyecto:
     ```bash
