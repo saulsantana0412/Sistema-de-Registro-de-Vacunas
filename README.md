@@ -39,6 +39,8 @@ Este es un sistema creado con fines educativo que trata de un programa en consol
 ## Tecnologias-Utilizadas
 - C#
 - MySql
+- HTML
+- CSS
 
 ## Imagenes-del-sistema
 ![image](https://github.com/saulsantana0412/Sistema-de-Registro-de-Vacunas/assets/103664258/ccf2bf73-80df-4b1e-8f31-c2bb3934da18)
