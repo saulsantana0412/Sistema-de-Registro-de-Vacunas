@@ -1,0 +1,176 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    color: #042D61;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+
+}
+
+.tarjeta{
+    display: flex;
+    box-sizing: border-box;
+    padding: 30px;
+    width: 600px;
+    height: 600px;
+    border-radius: 20px;
+    border: solid 3px #042D61;
+    flex-direction: column;
+}
+
+.imagenes{
+    display:flex;
+    box-sizing: border-box;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 110px;
+    width: 100%;
+    background-color: white;
+    
+}
+
+.barra{
+    margin-top: 35px;
+    margin-left: 10px;
+}
+
+.text h1{
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.text h3{
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 10px;
+}
+
+.text p{
+    font-weight: 700;
+    font-size: 13px;
+    background-color: #042D61;
+    color: #fff;
+    width: max-content;
+    margin-top: 15px;
+    padding: 2px 5px;
+    border-radius: 7px;
+}
+
+.datos_personales h1{
+    font-weight: 700;
+    font-size: 18px;
+    background-color: #042D61;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    margin-top: 15px;
+    padding: 2px 5px;
+    border-radius: 7px;
+}
+
+.datos_personales table{
+    margin-top: 10px;
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 13px;
+}
+
+
+.datos_personales td {
+    border: solid 1px #042D61;
+}
+
+
+.datos_personales .Arriba{
+    border-top: 0;
+}
+
+.datos_personales .Abajo{
+    border-bottom: 0;
+}
+
+.datos_personales .columna_titulo{
+    border-left: 0;
+    width: 155px;
+    font-weight: 600;
+}
+
+.datos_personales .columna_variable{
+    padding-left: 5px;
+    border-right: 0;
+    font-family: 'Shadows Into Light', cursive;
+    color: #161616;
+    font-size: 20px;
+    line-height: 10px;
+}
+
+.datos_vacunacion{
+    box-sizing: content-box;
+}
+
+.datos_vacunacion h1{
+    font-weight: 700;
+    font-size: 18px;
+    background-color: #042D61;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    margin-top: 15px;
+    padding: 2px 5px;
+    border-radius: 7px;
+}
+
+.tabla_vacunacion table{
+    margin-top: 10px;
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 13px;
+}
+
+.tabla_vacunacion{
+
+    overflow: hidden;
+    overflow-y: auto;
+    height: 185px;
+}
+
+.tabla_vacunacion td{
+    text-align: center;
+    font-family: 'Shadows Into Light', cursive;
+    color: #161616;
+    font-size: 20px;
+    
+}
+
+.tabla_vacunacion td, th {
+    border: solid 1px #042D61;
+}
+
+.tabla_vacunacion .columna_derecha {
+    border-right: 0;
+}
+
+.tabla_vacunacion .columna_izquierda {
+    border-left: 0;
+}
+
+.tabla_vacunacion .columna_izquierda {
+    border-left: 0;
+}
+
+.tabla_vacunacion th{
+    border-top: 0;
+}
